@@ -4,28 +4,28 @@
 class TranslateCli < Formula
   desc "Translate text through local Agent CLIs"
   homepage "https://github.com/potato4d/translate-cli"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/potato4d/homebrew-tap/releases/download/translate-cli-v0.1.3/t-darwin-amd64.tar.gz"
-      sha256 "b69d82d921dfd237ca967bae880fee6a82c3c53fc1363a023c8dc848241e194b"
+      url "https://github.com/potato4d/homebrew-tap/releases/download/translate-cli-v0.1.4/t-darwin-amd64.tar.gz"
+      sha256 "5789b9f7417833d59c5c1dfb2393b0bf9e776c939d3f4fed4f940810defffb56"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/potato4d/homebrew-tap/releases/download/translate-cli-v0.1.3/t-darwin-arm64.tar.gz"
-      sha256 "ff817550ac22016092e50bc2a047d6168a883f6e0befdf019800229060dc62d0"
+      url "https://github.com/potato4d/homebrew-tap/releases/download/translate-cli-v0.1.4/t-darwin-arm64.tar.gz"
+      sha256 "7fbb75dc2967aa96717b20a54591143bfe75437413de35d6b7fee28d2342165f"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/potato4d/homebrew-tap/releases/download/translate-cli-v0.1.3/t-linux-amd64.tar.gz"
-      sha256 "28fb86d6cfa2a3a17786c10ef6db376c7a18d8831789fa5f37b12d884e60bc16"
+      url "https://github.com/potato4d/homebrew-tap/releases/download/translate-cli-v0.1.4/t-linux-amd64.tar.gz"
+      sha256 "fc3760050b199737b4df7981e0121827c86a3280fa746f85b8ea40bd2e3a2132"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/potato4d/homebrew-tap/releases/download/translate-cli-v0.1.3/t-linux-arm64.tar.gz"
-      sha256 "55ad5644916ca468b3c7cf7de1218e549f42c204723553f43adc37d061f7e042"
+      url "https://github.com/potato4d/homebrew-tap/releases/download/translate-cli-v0.1.4/t-linux-arm64.tar.gz"
+      sha256 "ec4762623ff299d9f99ff13c6d571205148785e71cfaabb815eeaff863eeeb69"
     end
   end
 
