@@ -7,7 +7,7 @@ cask "winzig" do
   desc "Small desktop text editor built with Electron and TypeScript"
   homepage "https://github.com/potato4d/winzig"
 
-  depends_on macos: :big_sur
+  depends_on macos: :monterey
   depends_on arch: :arm64
 
   app "Winzig.app"

@@ -2,7 +2,8 @@
 
 ## Winzig
 
-Winzig is available as a cask for Macs with Apple silicon.
+Winzig is available as a cask for Macs with Apple silicon running macOS 12 or
+later.
 
 ```sh
 brew install --cask potato4d/tap/winzig
