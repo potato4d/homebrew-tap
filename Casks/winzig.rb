@@ -1,6 +1,6 @@
 cask "winzig" do
-  version "0.3.0"
-  sha256 "08f1fe97ce7e47aeddfd8c4c1c0b535cfef7e307907220d452bdd410e3fade4b"
+  version "0.3.1"
+  sha256 "dc51fbcab9ff6fabe299d79e7ff360bf18d5f0a1a03e90f71084abcb79c18380"
 
   url "https://github.com/potato4d/winzig/releases/download/v#{version}/Winzig-#{version}-arm64.dmg"
   name "Winzig"
