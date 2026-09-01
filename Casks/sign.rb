@@ -1,6 +1,6 @@
 cask "sign" do
-  version "0.3.5"
-  sha256 "3942d16f53259f95a063de326e7ede26aa8ca989b2c1480157cc2a1c8fea99d2"
+  version "0.3.6"
+  sha256 "1c7c1b5bab2ac356fa0afe23f0fdca8b25ba17a853280c45c36e7037faa46380"
 
   url "https://github.com/potato4d/sign/releases/download/v#{version}/sign-#{version}-arm64.dmg"
   name "sign"
